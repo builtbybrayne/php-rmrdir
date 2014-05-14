@@ -1,0 +1,16 @@
+{
+    "name": "perchten/rmrdir",
+    "description": "Recusrive rmdir for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alastair Brayne",
+            "email": "al@perchten.co.uk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/rmrdir.php"
+        ]
+    }
+}
