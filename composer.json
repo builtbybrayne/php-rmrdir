@@ -2,11 +2,19 @@
     "name": "perchten/rmrdir",
     "description": "Recusrive rmdir for PHP",
     "homepage": "https://github.com/perchten/php-rmrdir",
+    "keywords": [
+        "rmdir",
+        "rm",
+        "dir",
+        "recursive",
+        "rm -r"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Alastair Brayne",
-            "email": "al@perchten.co.uk"
+            "email": "al@perchten.co.uk",
+            "homepage": "http://perchten.co.uk"
         }
     ],
     "autoload": {
