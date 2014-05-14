@@ -1,6 +1,7 @@
 {
     "name": "perchten/rmrdir",
     "description": "Recusrive rmdir for PHP",
+    "homepage": "https://github.com/perchten/php-rmrdir",
     "license": "MIT",
     "authors": [
         {
