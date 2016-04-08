@@ -14,7 +14,7 @@ Rmrdir is available on Packagist ([perchten/rmrdir](https://packagist.org/packag
 Add the following to your `composer.json`
 
 	{
-    	"require": {s
+    	"require": {
         	"perchten/rmrdir": "1.*"
 	    }
 	}
