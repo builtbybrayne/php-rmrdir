@@ -11,7 +11,7 @@ function rmrdir($dir) {
     $it = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
     foreach($it as $file) {
         if ('.' === $file->getBasename() || '..' ===  $file->getBasename()) continue;
-        if ($file->isDir()) rmdir($file->getPathname());
+	if ($file->isDir() && ! $file->isLink()) rmdir($file->getPathname());
         else unlink($file->getPathname());
     }
     return rmdir($dir);
